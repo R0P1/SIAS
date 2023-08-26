@@ -1,9 +1,9 @@
-echo "------------------------------"
-echo "   SETING IP ADDRESS STATIK   "
-echo "------------------------------"
-echo "       Dibuat oleh Rofi       "
-echo " https://github.com/R0P1/SIAS "
-echo "------------------------------"
+echo "--------------------------------------"
+echo "       SETING IP ADDRESS STATIK       "
+echo "--------------------------------------"
+echo "           Dibuat oleh Rofi           "
+echo "     https://github.com/R0P1/SIAS     "
+echo "--------------------------------------"
 
 read -p "Masukkan alamat IP (contoh: 192.168.1.14): " address
 read -p "Masukkan netmask (contoh: 255.255.255.0): " netmask
