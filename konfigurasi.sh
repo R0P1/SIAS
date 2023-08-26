@@ -12,6 +12,7 @@ read -p "Masukkan alamat siaran IP (contoh: 192.168.1.255): " broadcast
 read -p "Masukkan alamat gateway IP (contoh: 192.168.1.1): " gateway
 read -p "Masukkan dns-nameservers (contoh: 8.8.8.8): " dns_nameservers
 
+# file konfigurasi 
 file_konfigurasi="/etc/network/interfaces"
 
 # konfigurasi
