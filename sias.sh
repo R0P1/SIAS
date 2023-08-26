@@ -2,10 +2,10 @@
 
 echo ""
 echo "+============================================+"
-echo "| PROGRAM | SETING IP ADDRESS STATIK (SIAS)  |"
-echo "| PEMBUAT | ROFI                             |"
-echo "| GUTHUB  | https://github.com/R0P1/SIAS.git |"
-echo "| LISENSI | MIT                              |"
+echo "| Program | Seting ip address statik         | "
+echo "| Pembuat | Rofi                             |"
+echo "| Github  | https://github.com/R0P1/SIAS.git |"
+echo "| E-mail  | pysoft.biz@gmail.com             |                  |"
 echo "+============================================+"
 echo ""
 
