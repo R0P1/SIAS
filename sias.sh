@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo ""
-echo "|__--__--__--__--__--__--__--__--__--__--__--|"
-echo "| Program : Seting ip address statik         |"
-echo "| Pembuat : Rofi                             |"
-echo "| Github  : https://github.com/R0P1/sias.git |"
-echo "| Lisensi : MIT                              |"
-echo "|--__--__--__--__--__--__--__--__--__--__--__|"
+echo "+============================================+"
+echo "| Program | Seting ip address statik         |"
+echo "| Pembuat | Rofi                             |"
+echo "| Github  | https://github.com/R0P1/sias.git |"
+echo "| Lisensi | MIT                              |"
+echo "+============================================+"
 echo ""
 
 read -p "Masukkan alamat IP (contoh: 192.168.1.14): " address
