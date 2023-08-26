@@ -1,3 +1,12 @@
+#!/bin/bash
+
+#__--__--__--__--__--__--__--__--__--__--__--#
+# Program : Seting ip address statik         #
+# Pembuat : Rofi                             #
+# Github  : https://github.com/R0P1/sias.git #
+# Lisensi : MIT                              #
+#--__--__--__--__--__--__--__--__--__--__--__#
+
 clear
 
 echo ""
