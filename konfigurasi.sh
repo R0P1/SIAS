@@ -1,3 +1,14 @@
+echo "SETING IP ADDRESS STATIK"
+echo "------------------------"
+echo ""
+
+read -p "Masukkan ip address: " address
+read -p "Masukkan netmask: " netmask
+read -p "Masukkan ip network: " network
+read -p "Masukkan ip broadcast: " broadcast
+read -p "Masukkan gateway: " gateway
+read -p "Masukkan dns-nameservers: " dns_nameservers
+
 file_konfigurasi="/etc/network/interfaces"
 
 # konfigurasi
