@@ -15,7 +15,7 @@ file_konfigurasi="/etc/network/interfaces"
 echo "auto eth0" >> ${file_konfigurasi}
 echo "iface eth0 inet static" >> ${file_konfigurasi}
 echo "	address ${address}" >> ${file_konfigurasi}
-echi "	netmask ${netmask}" >> ${file_konfigurasi}
+echo "	netmask ${netmask}" >> ${file_konfigurasi}
 echo "	network ${network}" >> ${file_konfigurasi}
 echo "	broadcast ${broadcast}" >> ${file_konfigurasi}
 echo "	gateway ${gateway}" >> ${file_konfigurasi}
