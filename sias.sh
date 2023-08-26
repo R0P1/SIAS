@@ -1,21 +1,12 @@
 #!/bin/bash
 
-#__--__--__--__--__--__--__--__--__--__--__--#
-# Program : Seting ip address statik         #
-# Pembuat : Rofi                             #
-# Github  : https://github.com/R0P1/sias.git #
-# Lisensi : MIT                              #
-#--__--__--__--__--__--__--__--__--__--__--__#
-
-clear
-
 echo ""
-echo "--------------------------------------"
-echo "       SETING IP ADDRESS STATIK       "
-echo "--------------------------------------"
-echo "           Dibuat oleh Rofi           "
-echo "     https://github.com/R0P1/SIAS     "
-echo "--------------------------------------"
+echo "|__--__--__--__--__--__--__--__--__--__--__--|"
+echo "| Program : Seting ip address statik         |"
+echo "| Pembuat : Rofi                             |"
+echo "| Github  : https://github.com/R0P1/sias.git |"
+echo "| Lisensi : MIT                              |"
+echo "|--__--__--__--__--__--__--__--__--__--__--__|"
 echo ""
 
 read -p "Masukkan alamat IP (contoh: 192.168.1.14): " address
