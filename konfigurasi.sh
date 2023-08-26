@@ -13,17 +13,23 @@ read -p "Masukkan alamat gateway IP (contoh: 192.168.1.1): " gateway
 read -p "Masukkan dns-nameservers (contoh: 8.8.8.8): " dns_nameservers
 
 # file konfigurasi 
-file_konfigurasi="/etc/network/interfaces"
+file_interfaces="/etc/network/interfaces"
+file_resolv="/etc/resolv.conf"
 
-# konfigurasi
-echo "auto eth0" >> ${file_konfigurasi}
-echo "iface eth0 inet static" >> ${file_konfigurasi}
-echo "	address ${address}" >> ${file_konfigurasi}
-echo "	netmask ${netmask}" >> ${file_konfigurasi}
-echo "	network ${network}" >> ${file_konfigurasi}
-echo "	broadcast ${broadcast}" >> ${file_konfigurasi}
-echo "	gateway ${gateway}" >> ${file_konfigurasi}
-echo "	dns-nameservers ${dns_nameservers}" >> ${file_konfigurasi}
+# konfigurasi pada file interfaces
+echo "auto eth0" >> ${file_interfaces}
+echo "iface eth0 inet static" >> ${file_interfaces}
+echo "	address ${address}" >> ${file_interfaces}
+echo "	netmask ${netmask}" >> ${file_interfaces}
+echo "	network ${network}" >> ${file_interfaces}
+echo "	broadcast ${broadcast}" >> ${file_interfaces}
+echo "	gateway ${gateway}" >> ${file_interfaces}
+echo "	dns-nameservers ${dns_nameservers}" >> ${file_interfaces}
+
+# konfigurasi pada file resolv.conf
+echo "nameserver ${dns_nameservers}" >> ${file_resolv}
+
+/etc/init.d/networking restart
 
 echo "[*] Sedang melakukan konfigurasi..."
 
