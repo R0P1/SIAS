@@ -33,11 +33,13 @@ echo "	dns-nameservers ${dns_nameservers}" >> ${file_interfaces}
 # konfigurasi pada file resolv.conf
 echo "nameserver ${dns_nameservers}" >> ${file_resolv}
 
+# restart layanan jaringan pada sistem linux 
 /etc/init.d/networking restart
 
+echo ""
 echo "[*] Sedang melakukan konfigurasi..."
 
 sleep 14
 
 echo "[+] Selesai."
-echo "[*] Silahkan restart sistem operasi Anda dengan menjalankan perintah 'reboot'."
+echo ""
