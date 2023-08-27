@@ -10,7 +10,6 @@ echo "|              Github  : https://github.com/R0P1/SIAS.git              | "
 echo "|              E-mail  : pysoft.biz@gmail.com                          | "
 echo "+======================================================================+ "
 echo ""
-
 read -p "[$] Masukkan Ethernet (contoh: eth0): " e
 read -p "[$] Masukkan alamat IP (contoh: 192.168.1.14): " a
 read -p "[$] Masukkan prefix alamat IP (contoh: 24): " p
@@ -22,9 +21,9 @@ f="/etc/netplan/01-network-manager-all.yaml"
 
 echo ""
 echo "[*] Sedang melakukan konfigurasi..."
+sleep 5
 
-sleep 7
-
+# konfigurasi 
 echo "" >> $f
 echo "# Seting ip address statis" >> $f
 echo "# Oleh Rofi" >> $f
