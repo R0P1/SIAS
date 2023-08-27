@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/Di_uji_pada_sistem_operasi_Linux-Xubuntu_23.04-blue)
+![](https://img.shields.io/badge/Lisensi-MIT-green)
+
 # SIAS
 
 Sias adalah program Bash sederhana yang dibuat untuk menyeting ip address statik di sistem operasi Linux.
