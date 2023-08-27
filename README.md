@@ -1,5 +1,5 @@
 <h1 align="center">SIAS</h1>
-<p align="center">SIAS adalah program Bash sederhana yang dibuat untuk menyeting ip address statik di sistem operasi Linux.</p>
+<p align="center">SIAS adalah program Bash sederhana yang dibuat untuk menyeting ip address statis di sistem operasi Linux.</p>
 <h2 align="center">Instalasi</h2>
 <pre>
 $ sudo apt-get update
