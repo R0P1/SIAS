@@ -22,5 +22,5 @@ $ ./sias
 <img src="https://github.com/R0P1/sias/blob/main/gambar/g4.jpg" />
 <p style="font-size: 5px;" align="center">Pengujian ping ke DNS publik milik Google</p>
 <img src="https://github.com/R0P1/sias/blob/main/gambar/g5.jpg" />
-<p align="center">Pengujian akses internet melalui pencarian kata kunci 'github' dengan mesin pencari Firefox."
+<p align="center">Pengujian akses internet melalui pencarian kata kunci 'github' dengan mesin pencari Firefox.
 </p>
