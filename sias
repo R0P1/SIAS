@@ -8,14 +8,15 @@ h="\e[1;32m"
 r="\e[0m"
 w="\e[1;37m"
 
-echo ""
+echo -e "${w}"
 echo "+======================================================================+ "
 echo "|              Program : Seting ip address statis                      | "
 echo "|              Pembuat : Rofi                                          | "
 echo "|              Github  : https://github.com/R0P1/SIAS.git              | "
 echo "|              E-mail  : pysoft.biz@gmail.com                          | "
 echo "+======================================================================+ "
-echo ""
+echo -e "${r}"
+
 read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan Ethernet (contoh: eth0): ' e
 read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan alamat IP (contoh: 192.168.1.14): ' a
 read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan prefix alamat IP (contoh: 24): ' p
