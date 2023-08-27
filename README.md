@@ -20,6 +20,4 @@ $ ./sias
 ![gambar 4](https://github.com/R0P1/sias/blob/main/gambar/g4.jpg)
 ![gambar 5](https://github.com/R0P1/sias/blob/main/gambar/g5.jpg)
 
-> _*Jika Anda mengalami masalah, silakan hubungi kami di pysoft.biz@gmail.com.*_
-
----
+<blockquote><i>Jika Anda mengalami masalah, silakan hubungi kami di <a href="mailto: pysoft.biz@gmail.com">pysoft.biz@gmail.com</a>.</i></blockquote>
