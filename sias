@@ -53,5 +53,5 @@ echo "" >> $f
 
 netplan apply > /dev/null 2>&1
 
-echo -e "${w}[${h}+${w}] Selesai.${r}"
+echo -e "${w}[${h}+${w}] ${h}Selesai${w}.${r}"
 echo ""
