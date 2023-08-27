@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/BASH-Bourne_Again_Shell-lightgreen) ![](https://img.shields.io/badge/Dikembangkan_di_sistem_operasi-Linux-orange) ![](https://img.shields.io/badge/Di_uji_pada_sistem_operasi_Linux-Xubuntu_23.04-blue) ![](https://img.shields.io/badge/Lisensi-MIT-green)
+![](https://img.shields.io/badge/BASH-Bourne_Again_Shell-lightgreen) ![](https://img.shields.io/badge/Lisensi-MIT-green) ![](https://img.shields.io/badge/Dikembangkan_di_sistem_operasi-Linux-orange) ![](https://img.shields.io/badge/Di_uji_pada_sistem_operasi_Linux-Xubuntu_23.04-blue) 
 
 # SIAS
 
-Sias adalah program Bash sederhana yang dibuat untuk menyeting ip address statik di sistem operasi Linux.
+**Sias adalah program Bash sederhana yang dibuat untuk menyeting ip address statik di sistem operasi Linux.**
 
 ## Hasil
 
@@ -12,4 +12,4 @@ Sias adalah program Bash sederhana yang dibuat untuk menyeting ip address statik
 ![gambar 4](https://github.com/R0P1/sias/blob/main/gambar/g4.jpg)
 ![gambar 5](https://github.com/R0P1/sias/blob/main/gambar/g5.jpg)
 
-
+> _*Jika Anda mengalami masalah, silakan hubungi kami di pysoft.biz@gmail.com.*_
