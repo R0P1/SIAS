@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/BASH-Bourne_Again_Shell-lightgreen)
+![](https://img.shields.io/badge/Dikembangkan_di_sistem_operasi-Linux-orange)
 ![](https://img.shields.io/badge/Di_uji_pada_sistem_operasi_Linux-Xubuntu_23.04-blue)
 ![](https://img.shields.io/badge/Lisensi-MIT-green)
 
