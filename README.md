@@ -2,7 +2,7 @@
 
 # SIAS
 
-**Sias adalah program Bash sederhana yang dibuat untuk menyeting ip address statik di sistem operasi Linux.**
+**SIAS adalah program Bash sederhana yang dibuat untuk menyeting ip address statik di sistem operasi Linux.**
 
 ## Hasil
 
