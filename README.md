@@ -13,11 +13,15 @@ $ ./sias
 </pre>
 <hr>
 <h2 align="center">Hasil</h2>
-
-![gambar 1](https://github.com/R0P1/sias/blob/main/gambar/g1.jpg)
-![gambar 2](https://github.com/R0P1/sias/blob/main/gambar/g2.jpg)
-![gambar 3](https://github.com/R0P1/sias/blob/main/gambar/g3.jpg)
-![gambar 4](https://github.com/R0P1/sias/blob/main/gambar/g4.jpg)
-![gambar 5](https://github.com/R0P1/sias/blob/main/gambar/g5.jpg)
-
+<img src="https://github.com/R0P1/sias/blob/main/gambar/g1.jpg" />
+<p align="center">Program SIAS</p>
+<img src="https://github.com/R0P1/sias/blob/main/gambar/g2.jpg" />
+<p align="center">Isi konfigurasi dari program SIAS</p>
+<img src="https://github.com/R0P1/sias/blob/main/gambar/g3.jpg" />
+<p align="center">Menampilkan informasi tentang antarmuka jaringan pada komputer</p>
+<img src="https://github.com/R0P1/sias/blob/main/gambar/g4.jpg" />
+<p style="font-size: 5px;" align="center">Pengujian ping ke DNS publik milik Google</p>
+<img src="https://github.com/R0P1/sias/blob/main/gambar/g5.jpg" />
+<p align="center">"Pengujian akses internet melalui pencarian kata kunci 'github' dengan mesin pencari Firefox."</p>
 <blockquote><i>Jika Anda mengalami masalah, silakan hubungi kami di <a href="mailto: pysoft.biz@gmail.com">pysoft.biz@gmail.com</a>.</i></blockquote>
+<hr>
