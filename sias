@@ -3,19 +3,25 @@
 clear
 
 echo ""
-echo "+======================================================================+"
+echo "                         ╔═══╗╔══╗╔═══╗╔═══╗                         "
+echo "                         ║╔═╗║╚╣╠╝║╔═╗║║╔═╗║                         "
+echo "                         ║╚══╗─║║─║║─║║║╚══╗                         "
+echo "                         ╚══╗║─║║─║╚═╝║╚══╗║                         "
+echo "                         ║╚═╝║╔╣╠╗║╔═╗║║╚═╝║                         "
+echo "                         ╚═══╝╚══╝╚╝─╚╝╚═══╝                         "
+echo "+======================================================================+ "
 echo "|                  Program : Seting ip address statis                  | "
-echo "|                            Pembuat : Rofi                            |"
-echo "|              Github  : https://github.com/R0P1/SIAS.git              |"
-echo "|                    E-mail  : pysoft.biz@gmail.com                    |"
-echo "+======================================================================+"
+echo "|                            Pembuat : Rofi                            | "
+echo "|              Github  : https://github.com/R0P1/SIAS.git              | "
+echo "|                    E-mail  : pysoft.biz@gmail.com                    | "
+echo "+======================================================================+ "
 echo ""
 
-read -p "Masukkan Ethernet (contoh: eth0): " e
-read -p "Masukkan alamat IP (contoh: 192.168.1.14): " a
-read -p "Masukkan prefix alamat IP (contoh: 24): " p
-read -p "Masukkan alamat gateway IP (contoh: 192.168.1.1): " g
-read -p "Masukkan dns-nameservers (contoh: 8.8.8.8): " d
+read -p "[$] Masukkan Ethernet (contoh: eth0): " e
+read -p "[$] Masukkan alamat IP (contoh: 192.168.1.14): " a
+read -p "[$] Masukkan prefix alamat IP (contoh: 24): " p
+read -p "[$] Masukkan alamat gateway IP (contoh: 192.168.1.1): " g
+read -p "[$] Masukkan dns-nameservers (contoh: 8.8.8.8): " d
 
 # file konfigurasi 
 f="/etc/netplan/01-network-manager-all.yaml"
