@@ -3,12 +3,12 @@
 clear
 
 echo ""
-echo "+============================================+"
-echo "| Program | Seting ip address statis         | "
-echo "| Pembuat | Rofi                             |"
-echo "| Github  | https://github.com/R0P1/SIAS.git |"
-echo "| E-mail  | pysoft.biz@gmail.com             |"
-echo "+============================================+"
+echo "+======================================================================+"
+echo "|                  Program : Seting ip address statis                  | "
+echo "|                            Pembuat : Rofi                            |"
+echo "|              Github  : https://github.com/R0P1/SIAS.git              |"
+echo "|                    E-mail  : pysoft.biz@gmail.com                    |"
+echo "+======================================================================+"
 echo ""
 
 read -p "Masukkan Ethernet (contoh: eth0): " e
