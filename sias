@@ -2,6 +2,12 @@
 
 clear
 
+# warna
+c="\e[1;36m"
+h="\e[1;32m"
+r="\e[0m"
+p="\e[1;37m"
+
 echo ""
 echo "+======================================================================+ "
 echo "|              Program : Seting ip address statis                      | "
@@ -20,7 +26,7 @@ read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan dns-nameservers (contoh: 8.8.8.8)
 f="/etc/netplan/01-network-manager-all.yaml"
 
 echo ""
-echo "[*] Sedang melakukan konfigurasi..."
+echo -e "${c}[*] Sedang melakukan konfigurasi...${r}"
 sleep 5
 
 # konfigurasi 
@@ -44,5 +50,5 @@ echo "" >> $f
 
 netplan apply > /dev/null 2>&1
 
-echo "[+] Selesai."
+echo -e "${p}[${h}+${p}] Selesai.${r}"
 echo ""
