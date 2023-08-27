@@ -21,6 +21,11 @@ f=/etc/netplan/01-netcfg.yaml
 echo "[*] Sedang melakukan konfigurasi..."
 sleep 14
 
+echo "" >> $f
+echo "# Seting ip address statik" >> $f
+echo "# Oleh Rofi" >> $f
+echo "# https://github.com/R0P1/SIAS.git" >> $f
+echo "" >> $f
 echo "network:" >> $f
 echo "        version: 2" >> $f
 echo "        renderer: networkd" >> $f
@@ -32,6 +37,7 @@ echo "                        - $a/$p" >> $f
 echo "                gateway4: $g" >> $f
 echo "                nameservers:" >> $f
 echo "                        addresses: [$g]" >> $f
+echo "" >> $f
 
 netplan apply
 
