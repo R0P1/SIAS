@@ -4,7 +4,7 @@ clear
 
 echo ""
 echo "+============================================+"
-echo "| Program | Seting ip address statik         | "
+echo "| Program | Seting ip address statis         | "
 echo "| Pembuat | Rofi                             |"
 echo "| Github  | https://github.com/R0P1/SIAS.git |"
 echo "| E-mail  | pysoft.biz@gmail.com             |                  |"
@@ -26,7 +26,7 @@ echo "[*] Sedang melakukan konfigurasi..."
 sleep 7
 
 echo "" >> $f
-echo "# Seting ip address statik" >> $f
+echo "# Seting ip address statis" >> $f
 echo "# Oleh Rofi" >> $f
 echo "# https://github.com/R0P1/SIAS.git" >> $f
 echo "" >> $f
