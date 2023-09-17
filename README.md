@@ -4,7 +4,6 @@
 <pre>
 $ sudo apt-get update
 $ sudo apt-get upgrade
-$ sudo apt-get install netplan
 $ sudo apt-get install git
 $ git clone https://github.com/R0P1/SIAS.git
 $ cd SIAS
