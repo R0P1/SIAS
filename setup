@@ -3,7 +3,7 @@
 # dibuat oleh : r0p1
 
 instal(){
-  apt-get install netpaln && apt-get install truncate
+  apt-get install netpaln && apt-get install coreutils
 }
 
 if [ $EUID -eq 0 ]; then
