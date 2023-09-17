@@ -20,7 +20,7 @@ echo "|                                                                      | "
 echo "+======================================================================+ "
 echo -e "${r}"
 
-read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan Ethernet (contoh: eth0): ' e
+read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan nama Ethernet (contoh: eth0): ' e
 read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan alamat IP (contoh: 192.168.1.14): ' a
 read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan prefix alamat IP (contoh: 24): ' p
 read -p $'\e[1;37m[\e[1;32m$\e[1;37m] Masukkan alamat gateway IP (contoh: 192.168.1.1): ' g
@@ -32,6 +32,8 @@ f="/etc/netplan/01-network-manager-all.yaml"
 echo ""
 echo -e "${w}[${k}*${w}] ${k}Sedang melakukan konfigurasi${w}...${r}"
 sleep 5
+
+truncate -s 0 $f
 
 # konfigurasi 
 echo "" >> $f
