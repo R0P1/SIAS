@@ -7,6 +7,6 @@ $ sudo apt-get upgrade
 $ sudo apt-get install git
 $ git clone https://github.com/R0P1/SIAS.git
 $ cd SIAS
-$ chmod +x sias
-$ ./sias
+$ chmod +x setup
+$ ./setup
 </pre>
