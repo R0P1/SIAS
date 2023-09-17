@@ -1,0 +1,20 @@
+#!/bin/bash
+# file setup untuk menginstal program sias
+# dibuat oleh : r0p1
+
+instal(){
+  apt-get install netpaln && apt-get install truncate
+}
+
+if [ $EUID -eq 0 ]; then
+    clear
+    read -p "Apakah Anda ingin menginstal SIAS (iya/tidak): " n
+    if [[ $n == "iya" ]]; then
+      instal
+      exit 0
+    else
+      exit 1
+    fi
+else
+    echo "Jalankan sebagai root!."
+fi
